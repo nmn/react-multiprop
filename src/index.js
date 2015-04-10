@@ -14,6 +14,7 @@ class MultiProp extends Component {
 
   updateCount(){
     this.setState({index: (this.state.index + 1) % this.props.changingProps.length})
+    setTimeout(this.updateCount, this.props.interval)
   }
 
   render(){
