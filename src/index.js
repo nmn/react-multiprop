@@ -33,7 +33,6 @@ class MultiProp extends Component {
 MultiProp.propTypes =
   { changingProps: React.PropTypes.array.isRequired
   , interval: React.PropTypes.number.isRequired
-  , component: React.PropTypes.component.isRequired
   }
 
 MultiProp.displayName = 'MultiProp'
