@@ -5,6 +5,7 @@ class MultiProp extends Component {
   constructor(props){
     super(props)
     this.state = {index: 0}
+    this.updateCount = this.updateCount.bind(this)
   }
 
   componentDidMount(){
