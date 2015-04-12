@@ -1,5 +1,5 @@
 {
-  "name": "multiProp",
+  "name": "react-multiprop",
   "version": "1.0.0",
   "description": "A simple React utility to cycle between Multiple Props",
   "main": "lib/index.js",
